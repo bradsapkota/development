@@ -458,7 +458,7 @@ SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")
                                                         <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">
                                                             <xsl:value-of select="storeDetails/store-name" /><br/>
                                                             <xsl:value-of select="storeDetails/address-line1" /><br/>
-                                                            <xsl:value-of select="storeDetails/suburb" />, <xsl:value-of select="storeDetails/state" /> <xsl:value-of select="storeDetails/postcode" />
+                                                            <xsl:value-of select="storeDetails/suburb" />, <xsl:value-of select="storeDetails/state" />&#32;<xsl:value-of select="storeDetails/postcode" />
                                                         </td>
                                                     </tr>
                                                 </table>
