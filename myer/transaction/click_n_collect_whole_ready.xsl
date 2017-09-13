@@ -30,92 +30,7 @@
                     <td height="40" class="em_height" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_spacer.gif" alt="space" width="1" height="1" border="0" style="display: block;"/></td>
                 </tr>
                 <!--PICK-UP_INFO -->
-                <tr>
-                    <td align="center" valign="top" style="padding: 0px 10px;">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 620px;" class="em_wrapper">
-                            <tr>
-                                <td align="center" valign="top" style="padding: 0px 53px;" class="em_aside" bgcolor="#ffffff">
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
-                                        <tr>
-                                            <td height="24" class="em_height"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block;" border="0"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px; padding-bottom: 12px;">PICK&#45;UP INFORMATION</td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" valign="top" style="padding-bottom: 20px;">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
-                                                    <tr>
-                                                        <td width="140" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; width: 140px;">Pick&#45;up date:</td>
-                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">%23 JANUARY 2018%</td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" valign="top" style="padding-bottom: 20px;">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
-                                                    <tr>
-                                                        <td width="140" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; width: 140px;">Pick&#45;up store:</td>
-                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">
-                                                            %Melbourne City%<br/>
-                                                            %314&#45;336 Bourke St%<br/>
-                                                            %Melbourne, 3000%
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; padding-bottom: 6px;">WHAT YOU&#146;LL NEED</td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" valign="top">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
-                                                    <tr>
-                                                        <td width="28" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px; width: 28px;">1.</td>
-                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Bring a copy of this <strong>email</strong> and your <strong>ID</strong>.</td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" valign="top">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
-                                                    <tr>
-                                                        <td width="28" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px; width: 28px;">2.</td>
-                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Go to %location%.</td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="center" valign="top" style="padding-bottom: 26px;">
-                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
-                                                    <tr>
-                                                        <td width="28" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px;color: #000000; font-weight: bold; line-height: 20px; width: 28px;">3.</td>
-                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Present this barcode.</td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left" valign="top" style="font-size: 0px; line-height: 0px;">
-                                                
-                                                <!--BARCODE_IMAGE-->
-                                                <img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_barcode.jpg" alt="%barcode_number%" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 18px; color: #000000; display: block; max-width: 285px;" border="0" height="140" width="285" class="em_img"/>
-                                            
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td height="26" class="em_height"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display:block;" border="0" /></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
+                message/additional-content/order/order-snapshot
                 <!--//PICK-UP_INFO-->
             </tbody>
         </table>
@@ -504,7 +419,96 @@
     </td>
 </tr>
 <!--//CUSTOMER_SERVICE_FOOTER-->
-
+</xsl:template>
+<xsl:template match="message/additional-content/order/order-snapshot">
+    <!--PICK-UP_INFO -->
+                <tr>
+                    <td align="center" valign="top" style="padding: 0px 10px;">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 620px;" class="em_wrapper">
+                            <tr>
+                                <td align="center" valign="top" style="padding: 0px 53px;" class="em_aside" bgcolor="#ffffff">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
+                                        <tr>
+                                            <td height="24" class="em_height"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block;" border="0"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px; padding-bottom: 12px;">PICK&#45;UP INFORMATION</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-bottom: 20px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
+                                                    <tr>
+                                                        <td width="140" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; width: 140px;">Pick&#45;up date:</td>
+                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">%23 JANUARY 2018%</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-bottom: 20px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
+                                                    <tr>
+                                                        <td width="140" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; width: 140px;">Pick&#45;up store:</td>
+                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">
+                                                            %Melbourne City%<br/>
+                                                            %314&#45;336 Bourke St%<br/>
+                                                            %Melbourne, 3000%
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; padding-bottom: 6px;">WHAT YOU&#146;LL NEED</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
+                                                    <tr>
+                                                        <td width="28" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px; width: 28px;">1.</td>
+                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Bring a copy of this <strong>email</strong> and your <strong>ID</strong>.</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
+                                                    <tr>
+                                                        <td width="28" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px; width: 28px;">2.</td>
+                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Go to %location%.</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-bottom: 26px;">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
+                                                    <tr>
+                                                        <td width="28" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px;color: #000000; font-weight: bold; line-height: 20px; width: 28px;">3.</td>
+                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Present this barcode.</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="font-size: 0px; line-height: 0px;">
+                                                
+                                                <!--BARCODE_IMAGE-->
+                                                <img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_barcode.jpg" alt="%barcode_number%" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 18px; color: #000000; display: block; max-width: 285px;" border="0" height="140" width="285" class="em_img"/>
+                                            
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="26" class="em_height"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display:block;" border="0" /></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!--//PICK-UP_INFO-->
 </xsl:template>
 <xsl:template match="message/additional-content/order/order-snapshot/Order-snapshot-totals">
 <tr>
