@@ -501,7 +501,7 @@ SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")
                                             <td align="left" valign="top" style="font-size: 0px; line-height: 0px;">
                                                 
                                                 <!--BARCODE_IMAGE-->
-                                                <img src="%%=v(@Barcode)=%%" alt="%%=v(@OrderNum)=%%" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 18px; color: #000000; display: block; max-width: 285px;" border="0" height="140" width="285" class="em_img"/>
+                                                <img src="%%=v(@Barcode)=%%" alt="%%=v(@OrderNum)=%%" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 18px; color: #000000; display: block; max-width: 285px;" border="0" width="285" class="em_img"/>
                                             
                                             </td>
                                         </tr>
