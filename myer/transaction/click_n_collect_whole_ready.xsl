@@ -453,9 +453,9 @@
                                                     <tr>
                                                         <td width="140" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; width: 140px;">Pick&#45;up store:</td>
                                                         <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">
-                                                            %Melbourne City%<br/>
-                                                            %314&#45;336 Bourke St%<br/>
-                                                            %Melbourne, 3000%
+                                                            %Melbourne City%<xsl:value-of select="storeDetails/store-name" /><br/>
+                                                            %314&#45;336 Bourke St%<xsl:value-of select="storeDetails/address-line1" /><br/>
+                                                            %Melbourne, 3000%<xsl:value-of select="storeDetails/suburb" />, <xsl:value-of select="storeDetails/state" /> <xsl:value-of select="storeDetails/postcode" />
                                                         </td>
                                                     </tr>
                                                 </table>
