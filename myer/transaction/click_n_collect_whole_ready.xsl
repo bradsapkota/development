@@ -30,7 +30,7 @@
                     <td height="40" class="em_height" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_spacer.gif" alt="space" width="1" height="1" border="0" style="display: block;"/></td>
                 </tr>
                 <!--PICK-UP_INFO -->
-                message/additional-content/order/order-snapshot
+                <xsl:apply-templates select="message/additional-content/order/order-snapshot"/>
                 <!--//PICK-UP_INFO-->
             </tbody>
         </table>
