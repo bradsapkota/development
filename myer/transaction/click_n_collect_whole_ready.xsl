@@ -420,8 +420,11 @@
 </tr>
 <!--//CUSTOMER_SERVICE_FOOTER-->
 </xsl:template>
+<!--PICK-UP_INFO -->
 <xsl:template match="message/additional-content/order/order-snapshot">
-    <!--PICK-UP_INFO -->
+    %%[SET @PickUpdate = "<xsl:value-of select="tracking/date" />"
+     SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")  
+  ]%%
                 <tr>
                     <td align="center" valign="top" style="padding: 0px 10px;">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 620px;" class="em_wrapper">
@@ -439,7 +442,7 @@
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
                                                     <tr>
                                                         <td width="140" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px; width: 140px;">Pick&#45;up date:</td>
-                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">%23 JANUARY 2018%</td>
+                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px;">%%=v(@FormatPickUpdate)=%%</td>
                                                     </tr>
                                                 </table>
                                             </td>
