@@ -426,7 +426,7 @@
 SET @OrderNum = '<xsl:value-of select="//message/additional-content/order/order-number" />'
 SET @Barcode = BarCodeURL(@OrderNum,'Code93', 400, 80, 0)
 SET @PickUpdate = '<xsl:value-of select="tracking/Estimated-shipment-date" />'
-SET @FormatPickUpdate = FormatDate(@PickUpdate, "dddd dd MMMM yyyy")  
+SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")  
 ]%%
                 <tr>
                     <td align="center" valign="top" style="padding: 0px 10px;">
