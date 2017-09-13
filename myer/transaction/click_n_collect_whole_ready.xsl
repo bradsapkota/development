@@ -424,7 +424,7 @@
 <xsl:template match="message/additional-content/order/order-snapshot">
 %%[
 SET @OrderNum = "<xsl:value-of select="//message/additional-content/order/order-number" />"
-SET @Barcode = BarCodeURL(@OrderNum,'Code93', 400, 60, 0)
+SET @Barcode = BarCodeURL(@OrderNum,'Code93', 400, 40, 0)
 SET @PickUpdate = "<xsl:value-of select="tracking/Estimated-shipment-date" />"
 SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")  
 ]%%
