@@ -479,7 +479,7 @@
                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="em_wrapper">
                                                     <tr>
                                                         <td width="28" class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; font-weight: bold; line-height: 20px; width: 28px;">2.</td>
-                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Go to %location%.</td>
+                                                        <td class="em_black" valign="top" align="left" style="font-family: Arial, sans-serif; font-size: 14px; color: #000000; line-height: 20px;">Go to <xsl:value-of select="storeDetails/store-name" /></td>
                                                     </tr>
                                                 </table>
                                             </td>
