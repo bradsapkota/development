@@ -11,7 +11,7 @@
                     <td height="40" class="em_height" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_spacer.gif" alt="space" width="1" height="1" border="0" style="display: block;"/></td>
                 </tr>
                 <tr>
-                    <td class="em_orange em_aside" valign="top" align="left" style="font-family: 'Montserrat', Arial, sans-serif; font-size: 24px; color: #f0683e; padding-left: 63px; padding-right: 63px; line-height: 28px; font-weight: 300; letter-spacing: 3px;">THANK YOU FOR SHOPPING WITH US</td>
+                    <td class="em_orange em_aside" valign="top" align="left" style="font-family: 'Montserrat', Arial, sans-serif; font-size: 24px; color: #f0683e; padding-left: 63px; padding-right: 63px; line-height: 28px; font-weight: 300; letter-spacing: 3px;">GOOD NEWS,<br/>YOUR ORDER IS READY!</td>
                 </tr>
                 <tr>
                     <td height="20" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_spacer.gif" alt="space" width="1" height="1" border="0" style="display: block;"/></td>
