@@ -29,12 +29,7 @@
                 <tr>
                     <td height="40" class="em_height" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_spacer.gif" alt="space" width="1" height="1" border="0" style="display: block;"/></td>
                 </tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
-<!--//HERO-->
-<!--PICK-UP_INFO-->
+                <!--PICK-UP_INFO-->
                 <tr>
                     <td align="center" valign="top" style="padding: 0px 10px;">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 620px;" class="em_wrapper">
@@ -122,6 +117,11 @@
                     </td>
                 </tr>
                 <!--//PICK-UP_INFO-->
+            </tbody>
+        </table>
+    </td>
+</tr>
+<!--//HERO-->
 <!--DIVIDER: ITEMS YOU ORDERED-->
 <tr>
     <td align="center" valign="top">
