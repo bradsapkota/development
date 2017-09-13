@@ -424,6 +424,7 @@
 <xsl:template match="message/additional-content/order/order-snapshot">
 %%[
 SET @OrderNum = "<xsl:value-of select="//message/additional-content/order/order-number" />"
+SET @Barcode = BarCodeURL(@OrderNum,'Code93', 400, 60, 0)
 SET @PickUpdate = "<xsl:value-of select="tracking/Estimated-shipment-date" />"
 SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")  
 ]%%
@@ -500,7 +501,7 @@ SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")
                                             <td align="left" valign="top" style="font-size: 0px; line-height: 0px;">
                                                 
                                                 <!--BARCODE_IMAGE-->
-                                                <img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_barcode.jpg" alt="%barcode_number%" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 18px; color: #000000; display: block; max-width: 285px;" border="0" height="140" width="285" class="em_img"/>
+                                                <img src="%%=v(@Barcode)=%%" alt="%%=v(@OrderNum)=%%" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 18px; color: #000000; display: block; max-width: 285px;" border="0" height="140" width="285" class="em_img"/>
                                             
                                             </td>
                                         </tr>
