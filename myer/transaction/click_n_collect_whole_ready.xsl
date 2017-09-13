@@ -422,9 +422,11 @@
 </xsl:template>
 <!--PICK-UP_INFO -->
 <xsl:template match="message/additional-content/order/order-snapshot">
-    %%[SET @PickUpdate = "<xsl:value-of select="tracking/Estimated-shipment-date" />"
-     SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")  
-  ]%%
+%%[
+SET @OrderNum = "<xsl:value-of select="//message/additional-content/order/order-number" />"
+SET @PickUpdate = "<xsl:value-of select="tracking/Estimated-shipment-date" />"
+SET @FormatPickUpdate = Format(@PickUpdate, "dddd dd MMMM yyyy")  
+]%%
                 <tr>
                     <td align="center" valign="top" style="padding: 0px 10px;">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 620px;" class="em_wrapper">
