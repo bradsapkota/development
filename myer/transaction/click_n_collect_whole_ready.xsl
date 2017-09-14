@@ -326,6 +326,11 @@
     </td>
 </tr>
 <!--HARD_DIVIDER-->
+<!--PRODUCT_TOTAL-->
+<xsl:apply-templates select="message/additional-content/order/order-snapshot/Order-snapshot-totals"/>
+<!--//PRODUCT_TOTAL-->
+
+
 <!--ORDERSUMMARY_MYERONE-->
 <xsl:apply-templates select="message/additional-content/order"/>
 <!--//ORDERSUMMARY_MYERONE-->
