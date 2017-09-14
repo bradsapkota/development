@@ -40,43 +40,41 @@
 <!--DIVIDER: ITEMS YOU ORDERED-->
 <tr>
     <td align="center" valign="top">
-        <table align="center" class="em_main_table" width="640" border="0" cellspacing="0" cellpadding="0" style="table-layout: fixed; width: 640px;" bgcolor="#faf8f9">
+        <table align="center" class="em_main_table" width="640" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed; width:640px;" bgcolor="#faf8f9">
             <tbody>
                 <tr>
-                    <td height="18" class="em_height"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                    <td height="37" class="em_height"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                 </tr>
                 <tr>
-                    <!--To restore left and right padding on this divider, use the commented <td> below instead-->
-                    <!--<td valign="top" align="center" style="padding-left: 63px; padding-right: 63px;" class="em_aside">-->
-                    <td valign="top" align="center" style="padding: 0px;">
+                    <td valign="top" align="center" style="padding:0px 63px;" class="em_aside">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
                             <tr>
                                 <td valign="top" align="center">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
                                         <tr>
-                                            <td height="7" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                                            <td height="7" style="line-height: 0px;font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                                         </tr>
                                         <tr>
-                                            <td height="1" bgcolor="#000000" style="line-height: 1px; font-size: 1px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                                            <td height="1" bgcolor="#000000" style="line-height:1px;font-size:1px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                                         </tr>
                                         <tr>
-                                            <td height="8" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                                            <td height="8" style="line-height: 0px;font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                                         </tr>
                                     </table>
                                 </td>
-                                <td width="20" class="em_side"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
-                                <td class="em_black" width="190" valign="top" align="center" style="font-family: 'Montserrat', Arial, sans-serif; font-size: 14px; color: #000000; line-height: 16px; letter-spacing: 2px;">ITEMS READY FOR PICK-UP</td>
-                                <td width="20" class="em_side"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                                <td width="37" class="em_side"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
+                                <td class="em_black" width="190" valign="top" align="center" style="font-family: Arial, sans-serif;font-size:14px;color:#000000;line-height:16px;">ITEMS READY FOR PICK UP</td>
+                                <td width="37" class="em_side"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                                 <td valign="top" align="center">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
                                         <tr>
-                                            <td height="7" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                                            <td height="7" style="line-height: 0px;font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                                         </tr>
                                         <tr>
-                                            <td height="1" bgcolor="#000000" style="line-height: 1px; font-size: 1px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                                            <td height="1" bgcolor="#000000" style="line-height:1px;font-size:1px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                                         </tr>
                                         <tr>
-                                            <td height="8" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
+                                            <td height="8" style="line-height: 0px;font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                                         </tr>
                                     </table>
                                 </td>
@@ -85,12 +83,12 @@
                     </td>
                 </tr>
                 <tr>
-                    <td height="18" class="em_height" style="line-height: 0px; font-size: 0px;"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/1503390624690_spacer.gif" alt="space" width="1" height="1" border="0" style="display: block;"/></td>
+                    <td height="37" class="em_height"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" height="1" width="1" alt="" style="display:block;border:none;" /></td>
                 </tr>
             </tbody>
         </table>
     </td>
-</tr>
+    </tr>
 <!--//DIVIDER-->
 
 <!--Counts the number of item in items and also changes the table layout-->
