@@ -88,7 +88,7 @@
             </tbody>
         </table>
     </td>
-    </tr>
+</tr>
 <!--//DIVIDER-->
 
 <!--Counts the number of item in items and also changes the table layout-->
