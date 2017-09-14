@@ -65,7 +65,7 @@
                                     </table>
                                 </td>
                                 <td width="20" class="em_side"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
-                                <td class="em_black" width="190" valign="top" align="center" style="font-family: 'Montserrat', Arial, sans-serif; font-size: 14px; color: #000000; line-height: 16px; letter-spacing: 2px;">ITEMS YOU ORDERED</td>
+                                <td class="em_black" width="190" valign="top" align="center" style="font-family: 'Montserrat', Arial, sans-serif; font-size: 14px; color: #000000; line-height: 16px; letter-spacing: 2px;">ITEMS READY FOR PICK-UP</td>
                                 <td width="20" class="em_side"><img src="http://image.email.myerone.com.au/lib/fe9713737563057f71/m/1/spacer.gif" alt="space" height="1" width="1" style="display: block; border: none;"/></td>
                                 <td valign="top" align="center">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
