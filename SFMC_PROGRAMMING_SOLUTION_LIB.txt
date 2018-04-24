@@ -1,0 +1,116 @@
+Hi there,
+
+Welcome to the github page for the salesforce marketing cloud code library. Below are the list of the 
+
+1.0 FIND NEXT SUNDAY?
+--------------------------------------------------
+%%[
+SET @dOfWeekNow = Format(SystemDateToLocalDate(Now()),'ddd')
+
+SET @dayModifier = IIF((@dOfWeekNow == 'Mon'), 1, IIF((@dOfWeekNow == 'Tue'), 2, IIF((@dOfWeekNow == 'Wed'),3,IIF((@dOfWeekNow == 'Mon'), 4, IIF((@dOfWeekNow == 'Fri'), 5, IIF(@dOfWeekNow == 'Sat', 6, 0))))))
+
+SET @nextSunday = FormatDate(DateAdd(SystemDateToLocalDate(Now()),Subtract(7,@dayModifier),'D'),'DD/MM/YYYY')
+]%%
+
+%%=v(@nextSunday)=%%
+
+
+2.0 30 DAYS FROM Now(true) AMPScript:
+--------------------------------------------------
+
+%%[
+SET @today = SystemDateToLocalDate(Now(true))
+
+IF _messageContext == "VAWP" THEN
+	/* Set the time to be 30 days from original send time */
+	SET @newTime = FormatDate(DateAdd(@today,30,'D'),'DD/MM/YYYY')
+ENDIF
+]%%
+
+
+3.0 SAMPLE SMS FOR URL SHORTENING (GTL)
+---------------------------------------------------
+%%[
+VAR @shortenedUrl, @request, @requestBody, @message, @status
+SET @longUrl = longUrl
+SET @requestBody = concat("https://api-ssl.bit.ly/v3/shorten?access_token={{tokenKey}}&longUrl=",@longUrl)
+SET @request = HTTPGet(@requestBody)
+]%%
+
+%%{={{ }}=}%%
+
+{{.datasource request type=variable source=@request}}
+	{{.data}}
+	 {"target":"@request"}
+	{{/data}}
+%%[SET @status = TreatAsContent("{{status_code}}")]%%
+	{{.datasource shorturl type=nested source=@request}}
+        {{.data}}
+          {"target":"request.data"}
+        {{/data}}
+%%[
+SET @shortenedUrl = TreatAsContent("{{url}}")
+SET @message = Concat("Hello ",FirstName," This is to notify that BITLY works. URL here: ",@shortenedUrl)
+InsertData("Outbound SMS Messages","mobile",MOBILE_NUMBER,"shortURL",@shortenedUrl,"statusCode",@status)
+]%%
+	{{/datasource}}
+{{/datasource}}
+%%[IF @status == 200 THEN]%%
+	%%=v(@message)=%%
+%%[ENDIF]%%
+
+4.0 PURGE ALL SUBS (SSJS+AMPscript)
+-----------------------------------------------------
+<script runat="server">
+Platform.Load("core","1");
+var dataRows = Platform.Function.LookupRows('All_Subscribers_Purged','Deleted','True');
+   if(dataRows && dataRows.length > 0) 
+{ var deleteSubscribers = HTTP.Get('http://{{4.1}}'); }
+</script>
+
+
+	4.1 HTTP POST TO LANDING PAGE
+	---------------------------------------------
+	%%[
+	SET @Data = LookUpOrderedRows("All_Subscribers_Purged",DataExtensionRowCount('All_Subscribers_Purged'),'SubscriberKey ASC',"Deleted","True")
+		IF RowCount(@Data) > 0 Then
+			For @i = 1 To RowCount(@Data) Do
+				SET @SubscriberKey = Field(Row(@Data,@i),'SubscriberKey')
+				SET @EmailAddress  = Field(Row(@Data,@i),'EmailAddress')
+				
+					IF Not Empty(@SubscriberKey) And Not Empty(@EmailAddress) Then
+						SET @Subscriber = CreateObject("Subscriber")
+							SetObjectProperty( @Subscriber, "SubscriberKey",@SubscriberKey)
+							SetObjectProperty( @Subscriber, "EmailAddress", @EmailAddress)
+						SET @Status = InvokeDelete( @Subscriber, @createErrDesc, @createErrNo, @createOpts)
+					EndIF
+					
+			Next @i
+		EndIF	
+	]%%
+
+5.0 IF ELSE STATEMENT USING IIF
+------------------------------------------------------
+
+%%=IIF((@PymtTp=='PAYPAL'), 'PayPal',
+IIF((@PymtTp=='AFTERPAY'),'Afterpay',
+IIF((@PymtTp=='MYER_VISA'),'Myer Visa',
+IIF((@PymtTp=='MYERV BLACKH'),'Myer Black',
+IIF((@PymtTp=='MYERV LOYALTY'),'Myer Loyalty',
+IIF((@PymtTp=='MYERV GIFT'), 'Myer Gift Card',
+IIF((@PymtTp=='MYERV RETURN'), 'Myer Return',
+IIF((@PymtTp=='MYER_CARD'), 'Myer Card',
+IIF((@PymtTp=='POS_CREDIT_CARD'), 'Credit Card (POS)',
+IIF((@PymtTp=='POS_GIFTRETURN_CARD'), 'Myer Return (POS)',
+IIF((@PymtTp=='POS_CASH'), 'Cash (POS)',
+IIF((@PymtTp=='CREDIT_CARD'), 'Credit Card',
+IIF((@PymtTp=='POS_DEBIT_CARD'), 'Debit Card (POS)',
+IIF((@PymtTp=='POS_MYER_REWD_CARD'), 'Myer Reward Card',
+IIF((@PymtTp=='POS_MYER_CARD'), 'Myer Card (POS)',
+IIF((@PymtTp=='POS_MYER_VISA'), 'Myer Card (POS)',
+IIF((@PymtTp=='POS_CBA_LOYALTY'), 'CBA Loyalty (POS)',
+IIF((@PymtTp=='MYERV MULTI'), 'Myer Multi',
+IIF((@PymtTp=='POS_MYER_VISA_INTFRE'), 'Myer Visa (POS)',
+IIF((@PymtTp=='MYERV XMAS'), 'Myer Xmas',ProperCase(@PymtTp))
+)))))))))))))))))))=%%
+
